@@ -24,13 +24,13 @@ const Hero = () => {
         </div>
         <div className="mx-auto max-w-6xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl ">
+            <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl ">
               Hey! I'm Harsha. <br/> I am a  
               <span style={{fontWeight:'bold',color:'#11827'}}>
                 {text}
               </span>
               <Cursor/>
-            </h1>
+            </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               A jack of all trades and master of a few.
             </p>
