@@ -1,27 +1,24 @@
-# harsha.dev — portfolio
+# Portfolio — Sri Harsha Ponukumati
 
-Personal portfolio of Sri Harsha Ponukumati. Spider-Man Noir vibes: black & white, film grain, rain, and one drop of red. Built on Next.js.
+Personal portfolio site: a bento-grid dashboard layout built with Next.js (App Router, TypeScript) and Tailwind CSS, deployed on Vercel.
 
 ## Stack
 
-- [Next.js 15](https://nextjs.org) (App Router)
-- [Tailwind CSS v4](https://tailwindcss.com)
-- [Framer Motion](https://www.framer.com/motion/) for animations
-- [next-themes](https://github.com/pacocoursey/next-themes) for dark mode
-- [canvas-confetti](https://github.com/catdad/canvas-confetti) for the logo easter egg 🎉
+- [Next.js](https://nextjs.org) App Router + TypeScript
+- Tailwind CSS v4
+- [lucide-react](https://lucide.dev) icons — pinned to `0.577.0` (the last 0.x release) because v1 removed the `Github`/`Linkedin` brand icons this site uses
+
+## Structure
+
+- `app/` — layout, page, global styles, favicon
+- `components/` — `BentoCard` (shared card primitive), one component per tile
+- `data/projects.ts`, `data/skills.ts` — all site content; edit copy here, not in components
 
 ## Development
 
 ```bash
 npm install
-npm run dev    # http://localhost:3000
-npm run build  # production build
+npm run dev
 ```
 
-## Editing content
-
-All content lives in `data/`:
-
-- `data/projects.js` — project cards
-- `data/skills.js` — toolbox marquee
-- `data/contacts.js` — contact links
+Open [http://localhost:3000](http://localhost:3000).
