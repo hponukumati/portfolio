@@ -8,7 +8,8 @@ export default function About() {
       <p className="mt-3 text-sm leading-6 text-foreground/90">
         Software engineer who likes building tools that solve real, specific
         problems — from medical-vocabulary speech recognition to filesystem
-        search that never makes you wait.
+        search that never makes you wait. I&apos;m also interested in open
+        source, and have a merged contribution to Oh My Zsh.
       </p>
       <p className="mt-4 flex items-center gap-2 text-sm text-muted">
         <GraduationCap className="h-4 w-4 shrink-0 text-accent" />
