@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import ProjectCard from "@/components/ProjectCard";
 import Skills from "@/components/Skills";
+import OpenSource from "@/components/OpenSource";
+import Events from "@/components/Events";
 import Contact from "@/components/Contact";
 import { projects } from "@/data/projects";
 
@@ -21,6 +23,8 @@ export default function Home() {
           <ProjectCard project={statusCheck} />
           <ProjectCard project={findex} />
           <ProjectCard project={movieTheatre} />
+          <OpenSource />
+          <Events />
           <Contact />
         </div>
         <footer className="mt-10 text-center text-xs text-muted">

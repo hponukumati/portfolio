@@ -1,4 +1,5 @@
 import { Github, Linkedin } from "lucide-react";
+import XIcon from "@/components/XIcon";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -44,6 +45,15 @@ export default function Navbar() {
               className="rounded-md p-2 text-muted transition-colors hover:bg-black/5 hover:text-foreground"
             >
               <Linkedin className="h-4 w-4" />
+            </a>
+            <a
+              href="https://x.com/sharshapo"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X"
+              className="rounded-md p-2 text-muted transition-colors hover:bg-black/5 hover:text-foreground"
+            >
+              <XIcon className="h-4 w-4" />
             </a>
           </div>
         </div>

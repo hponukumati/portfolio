@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail } from "lucide-react";
 import BentoCard from "@/components/BentoCard";
+import XIcon from "@/components/XIcon";
 
 const contactLinks = [
   {
@@ -16,6 +17,11 @@ const contactLinks = [
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/hponukumati",
     Icon: Linkedin,
+  },
+  {
+    label: "X",
+    href: "https://x.com/sharshapo",
+    Icon: XIcon,
   },
 ];
 
